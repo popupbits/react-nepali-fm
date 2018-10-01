@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.fm-item {
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  background: #f8f8f8;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+}

@@ -6,7 +6,7 @@ import ReactAudioPlayer from 'react-audio-player';
 
 class App extends Component {
   state = {
-    url: 'http://kantipur-stream.softnep.com:7248/;stream.nsv&type=mp3',
+    selectedFm: FmData[0],
     playing: false
   }
 
@@ -23,13 +23,19 @@ class App extends Component {
   }
 
   _changeFM = async (fm) => {
-    await this.setState({url: fm.url});
+    await this.setState({selectedFm: fm});
     this._play();
   }
 
   render() {
     return (
       <div className="App">
+        <div className="App-Bar">
+          <img src={require('./assets/equalizer.gif')} />
+          {this.state.playing && <button className="paused" onClick={this._pause}></button>}
+          {!this.state.playing && <button onClick={this._play}></button>}
+          <span>{this.state.selectedFm.name}</span>
+        </div>
         {FmData.map(fm=>{
           return(
             <div onClick={()=>this._changeFM(fm)} className="fm-item" key={fm.name}>
@@ -38,12 +44,11 @@ class App extends Component {
           )
         })}
         <ReactAudioPlayer
-          src={this.state.url}
+          src={this.state.selectedFm.url}
           autoPlay={this.state.playing}
           ref={(c) => this.player = c}
         />
-        <button onClick={this._pause}>Pause</button>
-        <button onClick={this._play}>play</button>
+        
       </div>
     );
   }

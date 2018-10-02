@@ -10,12 +10,12 @@ const data = [
     },
     {
       url: "http://stream.zenolive.com/wtuvp08xq1duv",
-      name: "Ujyaalo 90 Network err",
+      name: "Ujyaalo 90 Network {CORS}",
       image: "http://radio.nepal.fm/wp-content/uploads/ujyaalo-150x137.jpg"
     },
     {
       url: "http://kalika-stream.softnep.com:7740/;stream.nsv&type=mp3",
-      name: "Kalika FM err",
+      name: "Kalika FM {CORS}",
       image: "http://radio.nepal.fm/wp-content/uploads/kalikafm.jpg"
     },
     {
@@ -47,15 +47,11 @@ const data = [
     },
     {
       url: "http://stream.zenolive.com/2w81t82wx3duv",
-      name: "Radio Audio err"
-    },
-    {
-      url: "http://streaming.softnep.net:8107/;stream.nsv&type=mp3",
-      name: "Radio Sarangi Pokhara"
+      name: "Radio Audio {CORS}"
     },
     {
       url: "http://streaming.softnep.net:8109/;stream.nsv&type=mp3",
-      name: "Kalinchowk FM err"
+      name: "Kalinchowk FM {CORS}"
     },
     {
       url: "http://streaming.softnep.net:8057/;stream.nsv&type=mp3&autostart=true",
@@ -95,7 +91,7 @@ const data = [
     },
     {
       url: "http://streaming.softnep.net:8069/;stream.nsv&type=mp3",
-      name: "Radio Devghat err"
+      name: "Radio Devghat {CORS}"
     },
     {
       url: "http://streaming.softnep.net:8065/;stream.nsv&type=mp3",
@@ -103,19 +99,11 @@ const data = [
     },
     {
       url: "http://streaming.softnep.net:8063/;stream.nsv&type=mp3",
-      name: "Afno FM Rukum err"
+      name: "Afno FM Rukum {CORS}"
     },
     {
       url: "http://streaming.softnep.net:8061/;stream.nsv&type=mp3",
       name: "Radio Bihani"
-    },
-    {
-      url: "http://streaming.softnep.net:8045/;stream.nsv&type=mp3",
-      name: "Radio Saugat err"
-    },
-    {
-      url: "http://streaming.softnep.net:8033/;stream.nsv&type=mp3",
-      name: "Radio Society FM err"
     },
     {
       url: "http://streaming.softnep.net:8059/;stream.nsv&type=mp3",
@@ -126,52 +114,12 @@ const data = [
       name: "Radio Birgunj"
     },
     {
-      url: "http://streaming.softnep.net:8021/;stream.nsv&type=mp3",
-      name: "Radio Aakashganga err"
-    },
-    {
-      url: "http://streaming.softnep.net:8023/;stream.nsv&type=mp3",
-      name: "Radio Sudur Sandesh err"
-    },
-    {
-      url: "http://streaming.softnep.net:8137/;stream.nsv&type=mp3",
-      name: "Radio Chomolongma err"
-    },
-    {
-      url: "http://streaming.softnep.net:8135/;stream.nsv&type=mp3",
-      name: "Chapakot FM err"
-    },
-    {
-      url: "http://streaming.softnep.net:8009/;stream.nsv&type=mp3",
-      name: "ACORAB"
-    },
-    {
-      url: "http://streaming.softnep.net:8111/;stream.nsv&type=mp3",
-      name: "Mandala Online Radio err - connection refused"
-    },
-    {
       url: "http://streaming.softnep.net:8103/;stream.nsv&type=mp3",
       name: "Afno FM Okhaldhunga"
     },
     {
-      url: "http://streaming.softnep.net:8019/;stream.nsv&type=mp3",
-      name: "Radio Bindaas err connection"
-    },
-    {
-      url: "http://streaming.softnep.net:8077/;stream.nsv&type=mp3",
-      name: "Radio Madhyabindu err connection"
-    },
-    {
-      url: "http://streaming.softnep.net:8099/;stream.nsv&type=mp3",
-      name: "Radio Karnali Aawaz err"
-    },
-    {
       url: "http://streaming.softnep.net:8047/;stream.nsv&type=mp3",
       name: "Radio Sangeet"
-    },
-    {
-      url: "http://streaming.softnep.net:8087/;stream.nsv&type=mp3",
-      name: "Thamel FM err"
     },
     {
       url: "http://streaming.softnep.net:8007/;stream.nsv&type=mp3",
@@ -190,10 +138,6 @@ const data = [
       name: "Radio Sindhu"
     },
     {
-      url: "http://streaming.softnep.net:8011/;stream.nsv&type=mp3",
-      name: "Radio Sunakhari err"
-    },
-    {
       url: "http://streaming.softnep.net:8015/;stream.nsv&type=mp3",
       name: "Radio 24 Times"
     },
@@ -204,29 +148,9 @@ const data = [
       image: "http://radio.nepal.fm/wp-content/uploads/Citizen-FM.jpg"
     },
     {
-      url: "http://streaming.softnep.net:8009/;stream.nsv&type=mp3",
-      name: "Acorab – CIN",
-      image: "http://radio.nepal.fm/wp-content/uploads/Acorab.jpg"
-    },
-    {
-      url: "http://108.166.161.210:9022/;stream.nsv&type=mp3",
-      name: "Sagarmatha FM err promise",
-      image: "http://radio.nepal.fm/wp-content/uploads/sagarmathafm.jpg"
-    },
-    {
-      url: "http://202.166.217.123:89/;stream.nsv&type=mp3",
-      name: "Image FM err promise",
-      image: "http://radio.nepal.fm/wp-content/uploads/image979-150x114.gif"
-    },
-    {
       url: "http://streaming.softnep.net:8101/;stream.nsv&type=mp3",
       name: "Radio Karnali Jumla",
       image: "http://radio.nepal.fm/wp-content/uploads/radiokarnali.jpg"
-    },
-    {
-      url: "http://streaming.softnep.net:8099/;stream.nsv&type=mp3",
-      name: "Radio Karnali Aawaj err",
-      image: "http://radio.nepal.fm/wp-content/uploads/radiokarnaliaawaj.jpg"
     },
     {
       url: "http://streaming.softnep.net:8093/;stream.nsv&type=mp3",
@@ -235,12 +159,7 @@ const data = [
     },
     {
       url: "http://live.itechnepal.com:8580/stream",
-      name: "Naya Nepal FM err",
-    },
-    {
-      url: "http://streaming.softnep.net:8097/;stream.nsv&type=mp3",
-      name: "Dhawalagiri FM err",
-      image: "http://radio.nepal.fm/wp-content/uploads/Dhawalagiri.jpg"
+      name: "Naya Nepal FM {CORS}",
     },
     {
       url: "http://streaming.softnep.net:8047/;stream.nsv&type=mp3",
@@ -250,11 +169,6 @@ const data = [
     {
       url: "http://streaming.softnep.net:8061/;stream.nsv&type=mp3",
       name: "RVL Nepali",
-      image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
-    },
-    {
-      url: "http://streaming.softnep.net:8073/;stream.nsv&type=mp3",
-      name: "RVL Aadhunik err",
       image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
     },
     {
@@ -269,12 +183,12 @@ const data = [
     },
     {
       url: "http://streaming.softnep.net:8063/;stream.nsv&type=mp3",
-      name: "RVL Pop err",
+      name: "RVL Pop {CORS}",
       image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
     },
     {
       url: "http://streaming.softnep.net:8069/;stream.nsv&type=mp3",
-      name: "RVL Metal err",
+      name: "RVL Metal {CORS}",
       image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
     },
     {
@@ -284,18 +198,8 @@ const data = [
     },
     {
       url: "http://streaming.softnep.net:8071/;stream.nsv&type=mp3",
-      name: "RVL Dance err",
+      name: "RVL Dance {CORS}",
       image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
-    },
-    {
-      url: "http://streaming.softnep.net:8033/;stream.nsv&type=mp3",
-      name: "RVL Love err",
-      image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
-    },
-    {
-      url: "http://74.200.89.122:8060/;stream.nsv&type=mp3",
-      name: "Times FM 90.6 empty",
-      image: "http://radio.nepal.fm/wp-content/uploads/Times-FM-90.6-Nepal-150x150.jpg"
     }
   ]
 

@@ -7,6 +7,8 @@ services:
       - "3000:3000"
     volumes:
       - ./:/app
+      - ~/.ssh:/root/.ssh
+      - ~/.gitconfig:/root/.gitconfig
     working_dir: /app
     entrypoint: yarn start
     restart: always

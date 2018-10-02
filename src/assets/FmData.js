@@ -9,13 +9,13 @@ const data = [
       image: "http://radio.nepal.fm/wp-content/uploads/radio02.jpg"
     },
     {
-      url: "http://stream.zenolive.com/wtuvp08xq1duv",
-      name: "Ujyaalo 90 Network {CORS}",
+      url: "http://ample-zeno-20.radiojar.com/wtuvp08xq1duv?rj-ttl=5&rj-token=AAABZjT4J-zC50cFCXhTzVpUQZ_nuhC1i5b5MxQeyzawGk83GXPmAQ",
+      name: "Ujyaalo 90 Network ",
       image: "http://radio.nepal.fm/wp-content/uploads/ujyaalo-150x137.jpg"
     },
     {
       url: "http://kalika-stream.softnep.com:7740/;stream.nsv&type=mp3",
-      name: "Kalika FM {CORS}",
+      name: "Kalika FM ",
       image: "http://radio.nepal.fm/wp-content/uploads/kalikafm.jpg"
     },
     {
@@ -47,11 +47,11 @@ const data = [
     },
     {
       url: "http://stream.zenolive.com/2w81t82wx3duv",
-      name: "Radio Audio {CORS}"
+      name: "Radio Audio "
     },
     {
       url: "http://streaming.softnep.net:8109/;stream.nsv&type=mp3",
-      name: "Kalinchowk FM {CORS}"
+      name: "Kalinchowk FM "
     },
     {
       url: "http://streaming.softnep.net:8057/;stream.nsv&type=mp3&autostart=true",
@@ -91,7 +91,7 @@ const data = [
     },
     {
       url: "http://streaming.softnep.net:8069/;stream.nsv&type=mp3",
-      name: "Radio Devghat {CORS}"
+      name: "Radio Devghat "
     },
     {
       url: "http://streaming.softnep.net:8065/;stream.nsv&type=mp3",
@@ -99,7 +99,7 @@ const data = [
     },
     {
       url: "http://streaming.softnep.net:8063/;stream.nsv&type=mp3",
-      name: "Afno FM Rukum {CORS}"
+      name: "Afno FM Rukum "
     },
     {
       url: "http://streaming.softnep.net:8061/;stream.nsv&type=mp3",
@@ -159,7 +159,7 @@ const data = [
     },
     {
       url: "http://live.itechnepal.com:8580/stream",
-      name: "Naya Nepal FM {CORS}",
+      name: "Naya Nepal FM ",
     },
     {
       url: "http://streaming.softnep.net:8047/;stream.nsv&type=mp3",
@@ -183,12 +183,12 @@ const data = [
     },
     {
       url: "http://streaming.softnep.net:8063/;stream.nsv&type=mp3",
-      name: "RVL Pop {CORS}",
+      name: "RVL Pop ",
       image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
     },
     {
       url: "http://streaming.softnep.net:8069/;stream.nsv&type=mp3",
-      name: "RVL Metal {CORS}",
+      name: "RVL Metal ",
       image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
     },
     {
@@ -198,7 +198,7 @@ const data = [
     },
     {
       url: "http://streaming.softnep.net:8071/;stream.nsv&type=mp3",
-      name: "RVL Dance {CORS}",
+      name: "RVL Dance ",
       image: "http://radio.nepal.fm/wp-content/uploads/Rvl-Radio.jpg"
     }
   ]

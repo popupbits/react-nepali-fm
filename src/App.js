@@ -11,13 +11,15 @@ class App extends Component {
   }
 
   _play = () => {
-    console.log('play');
-    this.setState({playing: true});
-    this.player.audioEl.play();
+    this.setState({playing: true, errorPlaying: false});
+    try {
+      this.player.audioEl.play();
+    }catch(e) {
+      console.log(e);
+    }
   }
   
   _pause = () => {
-    console.log('pause');
     this.setState({playing: false});
     this.player.audioEl.pause();
   }
@@ -25,6 +27,10 @@ class App extends Component {
   _changeFM = async (fm) => {
     await this.setState({selectedFm: fm});
     this._play();
+  }
+
+  _playError = (e) => {
+    this.setState({errorPlaying: true})
   }
 
   render() {
@@ -35,6 +41,13 @@ class App extends Component {
           {this.state.playing && <button className="paused" onClick={this._pause}></button>}
           {!this.state.playing && <button onClick={this._play}></button>}
           <span>{this.state.selectedFm.name}</span>
+          {this.state.errorPlaying && <span className="error">There was an error playing this fm.</span>}
+          <ReactAudioPlayer
+            src={this.state.selectedFm.url}
+            autoPlay={this.state.playing}
+            ref={(c) => this.player = c}
+            onError={this._playError}
+          />
         </div>
         {FmData.map(fm=>{
           return(
@@ -43,11 +56,7 @@ class App extends Component {
             </div>
           )
         })}
-        <ReactAudioPlayer
-          src={this.state.selectedFm.url}
-          autoPlay={this.state.playing}
-          ref={(c) => this.player = c}
-        />
+        
         
       </div>
     );

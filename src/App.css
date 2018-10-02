@@ -47,6 +47,12 @@ body {
   border: 1px solid #c4183c;
 }
 
+.error {
+  color: #f00;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
 button {
   margin-left: 10px;
   border: 0;

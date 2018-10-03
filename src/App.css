@@ -24,8 +24,13 @@ body {
   color: #fff;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-left: 20px;
 
+}
+.flex-left {
+  display: flex;
+  align-items: center;
 }
 
 .fm-item {
@@ -51,6 +56,12 @@ body {
   color: #f00;
   font-size: 12px;
   margin-left: 10px;
+}
+
+.github-star {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
 }
 
 button {
